@@ -1,0 +1,19 @@
+Package: refer
+Title: Functions with Reference Semantics
+Version: 0.0.0.9000
+Authors@R: person("Kun", "Ren", email = "mail@renkun.me", role = c("aut", "cre"))
+Description: Provides a set of functions with reference semantics.
+Depends:
+    R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    testthat,
+    covr
+LinkingTo: Rcpp
+Imports:
+    Rcpp
+ByteCompile: TRUE
+SystemRequirements: C++11
+RoxygenNote: 5.0.1
